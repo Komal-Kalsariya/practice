@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #data{
+            width: 300px;
+            height: 300px;
+            background-color: pink;
+            margin: auto;
+        }
+        #data input{
+            width: 250px;
+            height: 30px;
+            display: flex;
+            margin: auto;
+            border-radius: 5px;
+            border: none;
+        }
+        #data input:nth-child(10){
+            background-color: rgb(201, 201, 239); 
+            width: 100px;  
+            text-align: center;
+            text-transform: uppercase;
+            height: 30px;
+        }
+        h2{
+            text-align: center;
+        }
+        #data select{
+            width: 260px;
+            height: 30px;
+            display: flex;
+            margin: auto;
+            border-radius: 5px;
+            border: none;
+        }
+        .center{
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <form id="data">
+        <h2>AddEmployee</h2>
+        <input type="text" id="name" placeholder="enter ypur name:"><br>
+        <input type="number" id="phone" placeholder="enter mobile number:"><br>
+        <input type="text" id="address"  placeholder="enter your address:"><br>
+        <select id="contory">
+            <option value="Select contry">Select contry</option>
+            <option value="India">India</option>
+            <option value="London">London</option>
+            <option value="America">America</option>
+        </select><br>
+        <input  type="submit" value="showdata">
+    </form>
+    <table border="1px solid black" class="center">
+       <thead>
+        <tr>
+            <th>Name</th>
+            <th>PhoneNo</th>
+            <th>Address</th>
+            <th>Country</th>
+            <th id="dele">DeleteALL</th>
+        </tr>
+       </thead>
+       <tbody id="box"></tbody>
+    </table>
+    <div id="show"></div>
+</body>
+<script src="index.js"></script>
+</html>

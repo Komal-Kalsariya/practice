@@ -1,0 +1,27 @@
+.logo{
+    width: 90px; 
+    border-radius: 50%;
+    
+}
+.add{
+   
+    margin: auto;
+    margin-top: 20px;
+    
+}
+#box{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box1{
+    width: 25%;
+    margin: 30px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: rgb(234, 207, 211);
+}
+img{
+    width: 250px;
+
+}
