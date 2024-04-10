@@ -1,7 +1,7 @@
 let carts=JSON.parse(localStorage.getItem("cart"))||[]
 
 const display=()=>{
-    document.getElementById("box").innerHTML=""
+    document.getElementById("tbody").innerHTML=""
     carts.map((ele)=>{
         let book=document.createElement("td")
         book.innerHTML=ele.book
@@ -21,7 +21,7 @@ const display=()=>{
         
         img.setAttribute("class","img1")
         tr.append(book,auther,img,price,year)
-        document.getElementById("box").append(tr)
+        document.getElementById("tbody").append(tr)
     })
 }
 display(carts)

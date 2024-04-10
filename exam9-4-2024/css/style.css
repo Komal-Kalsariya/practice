@@ -3,12 +3,15 @@
     border-radius: 50%;
 }
 nav ul li:hover{
-    background-color: bisque;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 #box{
     display: flex;
     flex-wrap: wrap;
 justify-content: center;
+background-color: #FFDEE9;
+background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+
 }
 .box1{
     width: 25%;
@@ -30,6 +33,11 @@ img{
 #box img:hover{
     transform: scale(1.1);
     transform: all 0.5s;
+}
+nav{
+    background-color: #FBDA61;
+    background-image: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%);
+    
 }
 
 .img1{
