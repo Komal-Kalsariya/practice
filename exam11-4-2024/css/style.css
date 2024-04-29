@@ -1,0 +1,27 @@
+.logo{
+    width: 100px;
+    border-radius: 50%;
+}
+nav{
+background-color: #D9AFD9;
+background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+margin-bottom: 10px;
+
+}
+aside{
+    width: 200px;
+    height: 100vh;
+    overflow: auto;
+    float: left; 
+}
+main{
+    width: calc(100%-200px);
+} 
+
+form{
+    width: 30%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin: auto;
+    border-radius: 10px;
+
+}
